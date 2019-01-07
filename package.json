@@ -1,0 +1,53 @@
+{
+  "name": "gitbook-plugin-i18n-upgrade",
+  "version": "1.0.0",
+  "description": "Upgraded i18n for gitbook",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "keywords": [
+    "gitbook",
+    "i18n",
+    "plugin"
+  ],
+  "author": "Bingyang Xie",
+  "license": "ISC",
+  "engines": {
+    "gitbook": ">=2.4.0"
+  },
+  "gitbook": {
+    "properties": {
+      "Lang1": {
+        "type": "object",
+        "properties" : {
+          "name": {
+            "type": "string",
+            "title": "Display name of language 1.",
+            "default": "English"
+          },
+          "url": {
+            "type": "string",
+            "title": "Folder name of language 1.",
+            "default": "en"
+          }
+        }
+      },
+      "Lang2": {
+        "type": "object",
+        "properties" : {
+          "name": {
+            "type": "string",
+            "title": "Display name of language 2.",
+            "default": "中文"
+          },
+          "url": {
+            "type": "string",
+            "title": "Folder name of language 12.",
+            "default": "zh"
+          }
+        }
+      }
+    }
+  }
+}

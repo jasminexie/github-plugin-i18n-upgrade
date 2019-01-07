@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+_book
+.DS_Store
+dist
+./.gitlab-ci.yml
+.idea/
