@@ -1,7 +1,7 @@
 {
   "name": "gitbook-plugin-i18n-upgrade",
-  "version": "1.0.0",
-  "description": "Upgraded i18n for gitbook",
+  "version": "2.0.0",
+  "description": "Upgraded i18n for AppAdhoc Gitbook",
   "main": "index.js",
   "scripts": {
     "test": "exit 1"
@@ -34,6 +34,11 @@
             "type": "string",
             "title": "Folder name of language 1.",
             "default": "en"
+          },
+          "include": {
+            "default": "[]",
+            "title": "(Array) Paths to show button of Lang2. Will show button on all Lang1 pages if not set.",
+            "type": "string"
           }
         }
       },
@@ -49,6 +54,11 @@
             "type": "string",
             "title": "Folder name of language 12.",
             "default": "zh"
+          },
+          "include": {
+            "default": "[]",
+            "title": "(Array) Paths which show button of Lang1. Will show button on all Lang2 pages if not set.",
+            "type": "string"
           }
         }
       }
